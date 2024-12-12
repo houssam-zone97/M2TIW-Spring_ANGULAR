@@ -1,0 +1,136 @@
+/* Style pour la table */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-table tr:hover {
+  background-color: #ddd;
+}
+
+.product-table td {
+  font-size: 14px;
+}
+
+/* Ajouter des marges autour du tableau */
+div {
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre h1 */
+h1 {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Style de base pour le conteneur de la page */
+div {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+/* Style du titre */
+h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Conteneur de la liste déroulante */
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Étiquette de la liste déroulante */
+label {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Liste déroulante */
+select {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+/* Liste déroulante - changement de couleur au survol */
+select:hover {
+  border-color: #007bff;
+}
+
+/* Liste déroulante - focus (quand la sélection est active) */
+select:focus {
+  border-color: #007bff;
+  background-color: #e8f4fd;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style de la table */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed;
+}
+
+.product-table th, .product-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.product-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.product-table td {
+  color: #555;
+}
+
+.product-table td:first-child {
+  font-weight: bold;
+}
+
+/* Style du formulaire de catégorie */
+.form-group select {
+  transition: all 0.3s ease;
+}
+

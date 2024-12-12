@@ -1,0 +1,66 @@
+.banner {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.banner h1 {
+  color: blue;
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer h1 {
+  color: blue;
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+}
+/* Style global du menu */
+.menu {
+  background-color: #333; /* Fond sombre pour le menu */
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacement entre les éléments */
+}
+
+/* Style pour les éléments du menu */
+.menu-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease; /* Animation lors du survol */
+}
+
+/* Style pour le survol des liens */
+.menu-item:hover {
+  background-color: #007bff; /* Changer la couleur lors du survol */
+  color: white; /* Garde la couleur du texte blanche */
+}
+
+/* Optionnel: Affichage mobile (menu vertical) */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column; /* Aligner les éléments du menu en colonne */
+  }
+  .menu-item {
+    margin: 5px 0;
+  }
+}

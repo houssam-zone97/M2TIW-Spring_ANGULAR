@@ -1,0 +1,14 @@
+.banner {
+  background-color: #f8f9fa; /* Couleur d'arrière-plan légère */
+  border: 1px solid #dee2e6; /* Bordure subtile */
+  border-radius: 8px; /* Coins arrondis */
+  padding: 20px; /* Espacement interne */
+  text-align: center; /* Centrage du texte */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.banner h1 {
+  color: #343a40; /* Couleur du texte */
+  font-family: 'Arial', sans-serif; /* Police moderne */
+  font-size: 2rem; /* Taille du texte */
+}

@@ -1,0 +1,45 @@
+/* Application du style global pour toute la page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Fond de la page */
+}
+
+.container {
+  max-width: 100%; /* La carte occupera toute la largeur */
+  width: 100%; /* Garantit que la carte occupe 100% de l'espace disponible */
+  margin: 20px auto; /* Centre la carte et ajoute un espace autour */
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #f5f5f5;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ddd;
+  margin: 0;
+}
+
+.card-content {
+  padding: 16px;
+  font-size: 1rem;
+  color: #666;
+}

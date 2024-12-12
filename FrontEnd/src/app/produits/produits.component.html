@@ -1,0 +1,29 @@
+<div>
+  <h1>Liste des produits </h1>
+  <div class="form-group">
+    <label for="categorie">Filtrer par catégorie :</label>
+    <select id="categorie" [(ngModel)]="selectedCategorie" (change)="filterProduits()" >
+      <option value="">Tous les catégories</option>
+      <option *ngFor="let c of categories" [value]="c.id">{{ c.nom }}</option>
+    </select>
+  </div>
+
+  <table class="product-table">
+    <thead>
+    <tr>
+      <th>Référence</th>
+      <th>Description</th>
+      <th>Prix Unitaire</th>
+      <th>Catégorie</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let p of filteredProduits">
+      <td>{{ p.reference }}</td>
+      <td>{{ p.description }}</td>
+      <td>{{ p.prixUnitaire+' DH' }}</td>
+      <td>{{ p.categorie.nom }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
